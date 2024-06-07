@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import {
   carsAutoInsert,
   citiyAutoInsert,
-  serviceAutoInsert,
-  usersAutoInsert
+  serviceAutoInsert
+  // usersAutoInsert
 } from '@/app/_pagecomp/admin/standerdata/db/masterFile'
 import Text from '@/components/shared/Text'
 import { SubSpinner } from '@/components/shared/Spinner'

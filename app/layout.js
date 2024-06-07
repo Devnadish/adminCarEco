@@ -31,7 +31,6 @@ export default async function RootLayout({ children }) {
         >
           <UrlProvider>
             <AuthProvider session={session}>
-              <NavBar session={session} newMails={newMails} />
               <div className=' mt-[70px] flex w-full flex-col items-center justify-center rounded bg-secondary/20 '>
                 {children}
               </div>

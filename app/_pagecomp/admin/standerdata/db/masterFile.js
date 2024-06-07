@@ -4,7 +4,7 @@ import { revalidatePath } from 'next/cache'
 import { carLogos } from '@/constant/carLogo'
 import { extraService } from '@/constant/extraService'
 import { citiesInKSA } from '@/constant/regions'
-import { fakeUsers } from '../../../../../components/fakedata/FakeInsertion'
+// import { fakeUsers } from '../../../../../components/fakedata/FakeInsertion'
 import { Slug } from '@/lib/nadish'
 
 export const getAllCars = async () => {
@@ -106,8 +106,8 @@ export const citiyAutoInsert = async data => {
     })
   )
 }
-export const usersAutoInsert = async data => {
-  // Use Promise.all to await all async operations in the loop
-  await db.user.deleteMany()
-  await fakeUsers(10)
-}
+// export const usersAutoInsert = async data => {
+//   // Use Promise.all to await all async operations in the loop
+//   await db.user.deleteMany()
+//   await fakeUsers(10)
+// }
